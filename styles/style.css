@@ -260,7 +260,13 @@ body {
 }
 
 .bonus__container {
+  max-width: 100%;
   display: flex;
+  box-sizing: border-box;
+}
+
+.bonus .inner {
+  max-width: 100%;
 }
 
 .bonus__texts {
@@ -505,11 +511,6 @@ body {
     padding-bottom: 24px;
   }
 
-  .bonus__container {
-    /* background: url("../assets/img/bonus-op.svg") center no-repeat; */
-    /* background-size: contain; */
-  }
-
   .bonus__texts {
     margin: 0;
   }
@@ -639,6 +640,12 @@ body {
     padding-top: 60px;
   }
 
+  .speaker__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .speaker__container {
     display: flex;
     justify-content: center;
@@ -651,7 +658,9 @@ body {
     width: 313px;
     margin-left: 32px;
   }
+
+  .bonus__text {
+    word-wrap: break-word;
+  }
 }
 
-/* 0a071f */
-/* 2d6fcb */
